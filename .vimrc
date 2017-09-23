@@ -1,5 +1,15 @@
 " Most of it is from https://github.com/xmementoit/vim-ide with a few modifications
 
+" :set nohlsearch 
+
+" ========== Clang Complete ======
+""let g:clang_complete_copen=1
+""let g:clang_hl_errors=1
+""let g:clang_debug=1
+""let g:clang_user_options='|| exit 0'
+let g:clang_library_path='/usr/lib/llvm-3.5/lib'
+set shortmess+=c
+
 " ======== Smooth Scroll ==================
 set mouse=a
 map <ScrollWheelUp> <C-Y>
