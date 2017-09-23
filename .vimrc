@@ -1,10 +1,12 @@
 " Most of it is from https://github.com/xmementoit/vim-ide with a few modifications
 
+" ======== Smooth Scroll ==================
 set mouse=a
 map <ScrollWheelUp> <C-Y>
 map <ScrollWheelDown> <C-E>
 
-" :set nohlsearch 
+" ======== Auto Save ==================
+let g:auto_save = 1
 
 " ========= NERDTree =========================
 " Check if NERDTree is open or active
