@@ -1,5 +1,8 @@
 " Most of it is from https://github.com/xmementoit/vim-ide with a few modifications
 
+set mouse=a
+map <ScrollWheelUp> <C-Y>
+map <ScrollWheelDown> <C-E>
 
 " :set nohlsearch 
 
